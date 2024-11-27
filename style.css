@@ -52,6 +52,8 @@ nav {
 .nav-list {
   list-style: none;
   display: flex;
+  position: relative;
+  top: 5px;
   align-items: center;
   padding: 0;
 }
@@ -146,5 +148,14 @@ iframe{
   margin-top: 5%;
   margin-left: 470px;
   margin-bottom: 5%;
-  border-radius: 15px;
+  border-radius: 15px;
+}
+
+.botao {
+  border-radius: 15px;
+  color: #ffff;
+  position: relative;
+  display: flex;
+  bottom:35px ;
+  background-color: #351E1E;
 }
