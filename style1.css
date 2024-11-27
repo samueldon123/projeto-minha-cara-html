@@ -54,6 +54,8 @@
   .nav-list {
     list-style: none;
     display: flex;
+    position: relative;
+    top: 5px;
     align-items: center;
     padding: 0;
   }
@@ -144,4 +146,11 @@
     height: auto;
   }
 
-  
+  .botao {
+    border-radius: 15px;
+    color: #ffff;
+    position: relative;
+    display: flex;
+    bottom:10px ;
+    background-color: #351E1E;
+  }
